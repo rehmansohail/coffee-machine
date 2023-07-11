@@ -15,7 +15,7 @@ milk = 200
 coffee = 100
 money = 0
 
-flag = input("What do you need? 'espresso', 'latte' or 'cappuccino'").lower()
+flag = input("What do you need? 'espresso', 'latte' or 'cappuccino'\n").lower()
 while 1:
     if flag == "off":
         break
@@ -26,13 +26,13 @@ while 1:
         print(f"Money: ${money}")
     elif flag == "espresso" or flag == "latte" or flag == "cappuccino":
         temp = 0
-        n = int(input("How many quarters you have?"))
+        n = int(input("How many quarters you have?\n"))
         temp += n*0.25
-        n = int(input("How many dimes you have?"))
+        n = int(input("How many dimes you have?\n"))
         temp += n*0.10
-        n = int(input("How many nickles you have?"))
+        n = int(input("How many nickles you have?\n"))
         temp += n*0.05
-        n = int(input("How many pennies you have?"))
+        n = int(input("How many pennies you have?\n"))
         n += n*0.01
         if flag == "espresso":
             st = check_ingredients(flag)
@@ -81,4 +81,4 @@ while 1:
     else:
         print("Invalid input")
 
-    flag = input("What do you need? 'espresso', 'latte' or 'cappuccino'").lower()
+    flag = input("What do you need? 'espresso', 'latte' or 'cappuccino'\n").lower()
