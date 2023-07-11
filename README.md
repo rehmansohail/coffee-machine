@@ -1,1 +1,1 @@
-# coffee-machine
+open main.py in any IDE to run the code
