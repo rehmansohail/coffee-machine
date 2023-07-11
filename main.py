@@ -48,6 +48,7 @@ while 1:
                     print("You have insufficient money")
             else:
                 print(st)
+                print("Here is your money back")
         elif flag == "latte":
             st = check_ingredients(flag)
             if st == "ok":
@@ -62,6 +63,7 @@ while 1:
                     print("You have insufficient money")
             else:
                 print(st)
+                print("Here is your money back")
         else:
             st = check_ingredients(flag)
             if st == "ok":
@@ -76,6 +78,7 @@ while 1:
                     print("You have insufficient money")
             else:
                 print(st)
+                print("Here is your money back")
 
 
     else:
